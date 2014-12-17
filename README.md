@@ -28,3 +28,10 @@ ngDefine(moduleName, dependencyArray, function (module) {
     //AMDular will automatically bootstrap your project
 });
 ```
+
+#How does it work?
+
+#Follow me
+
+@hanifbbz
+
