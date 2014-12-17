@@ -1,2 +1,3 @@
-angular.module('module.js', [])
-    .constant('variable', 'bar');
+AMDular.define('module.js', [], function (module) {
+    module.constant('variable', 'bar');
+});
