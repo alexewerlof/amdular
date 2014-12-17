@@ -1,6 +1,3 @@
-<div style="text-align:center">
-<img alt="AMDular logo" src="https://raw.githubusercontent.com/hanifbbz/amdular/master/AMDular-logo.png" />
-</div>
 ![AMDular logo](https://raw.githubusercontent.com/hanifbbz/amdular/master/AMDular-logo.png)
 
 #Introduction
