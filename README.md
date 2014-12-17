@@ -81,7 +81,7 @@ See the [examples] (https://github.com/hanifbbz/amdular/tree/master/examples) di
 Define your modules like this:
 
 ```javascript
-AMDular.define(moduleName, dependencyArray, function (module) {
+AMDular.define('moduleName', ['dependency', 'array'], function (module) {
     //the module parameter is the result of an angular.module( , []) call
 });
 ```
@@ -89,7 +89,7 @@ AMDular.define(moduleName, dependencyArray, function (module) {
 On  your main file (application file) use it like this:
 
 ```javascript
-AMDular.require(moduleName, dependencyArray, function (module) {
+AMDular.require('moduleName', ['dependency', 'array'], function (module) {
     //the module parameter is the result of an angular.module( , []) call
     //AMDular will automatically bootstrap your project
 }, optionalAppRootElement);
