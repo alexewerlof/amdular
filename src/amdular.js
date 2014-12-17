@@ -1,3 +1,10 @@
+/* global define, require */
+/* exported AMDular */
+
+/**
+ * AMDular License MIT
+ * @see https://github.com/hanifbbz/amdular
+ */
 var AMDular = (function () {
     'use strict';
 
