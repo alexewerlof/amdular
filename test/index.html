@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <script src="bower_components/angular/angular.js"></script>
-    <script data-main="app.js" src="bower_components/requirejs/require.js"></script>
+    <script src="../src/amdular.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script data-main="app.js" src="../bower_components/requirejs/require.js"></script>
 </head>
 <body ng-controller="AppCtrl">
-<dl>
-    <dt>a</dt><dd ng-bind="a"></dd>
-    <dt>b</dt><dd ng-bind="b"></dd>
-    <dt>c</dt><dd ng-bind="c"></dd>
-</dl>
+<table>
+    <tr>
+        <th>a</th>
+        <td ng-bind="a"></td>
+    </tr>
+    <tr>
+        <th>b</th>
+        <td ng-bind="b"></td>
+    </tr>
+    <tr>
+        <th>c</th>
+        <td ng-bind="c"></td>
+    </tr>
+</table>
 </body>
 </html>
