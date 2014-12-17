@@ -5,7 +5,7 @@
     "Alex Ewerlöf <hanifbbz@gmail.com>"
   ],
   "description": "AMD loading for Angular",
-  "main": "src/amdular.js",
+  "main": "amdular.js",
   "moduleType": [
     "amd"
   ],
@@ -19,6 +19,7 @@
   "ignore": [
     "**/.*",
     "*.png",
+    "examples",
     "node_modules",
     "bower_components",
     "test"

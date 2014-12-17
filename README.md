@@ -26,6 +26,15 @@ bower install amdular
 
 #Examples
 
+See the [examples] (https://github.com/hanifbbz/amdular/tree/master/examples) directory for more examples.
+
+##app.js
+
+```javascript
+AMDular.require('app.js', ['my-module.js'], function (app) {
+})
+```
+
 #API
 
 Define your modules like this:
@@ -42,7 +51,7 @@ On  your main file (application file) use it like this:
 AMDular.require(moduleName, dependencyArray, function (module) {
     //the module parameter is the result of an angular.module( , []) call
     //AMDular will automatically bootstrap your project
-});
+}, optionalAppRootElement);
 ```
 
 #How does it work?
