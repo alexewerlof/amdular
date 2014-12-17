@@ -1,4 +1,4 @@
-![AMDular logo](https://raw.github.com/hanifbbz/amdular/AMDular-logo.png)
+![AMDular logo](https://raw.githubusercontent.com/hanifbbz/amdular/master/AMDular-logo.png)
 
 #Introduction
 
