@@ -20,5 +20,5 @@ $RECYCLE.BIN/
 *.lnk
 
 .idea
-.bower_components
+bower_components/
 
