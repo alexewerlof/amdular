@@ -24,12 +24,14 @@ By convention module name is the file name (there's a way around that, see **How
 bower install amdular
 ```
 
-#Use
+#Examples
+
+#API
 
 Define your modules like this:
 
 ```javascript
-ngDefine(moduleName, dependencyArray, function (module) {
+AMDular.define(moduleName, dependencyArray, function (module) {
     //the module parameter is the result of an angular.module( , []) call
 });
 ```
@@ -37,7 +39,7 @@ ngDefine(moduleName, dependencyArray, function (module) {
 On  your main file (application file) use it like this:
 
 ```javascript
-ngDefine(moduleName, dependencyArray, function (module) {
+AMDular.require(moduleName, dependencyArray, function (module) {
     //the module parameter is the result of an angular.module( , []) call
     //AMDular will automatically bootstrap your project
 });
@@ -46,4 +48,13 @@ ngDefine(moduleName, dependencyArray, function (module) {
 #How does it work?
 
 The idea is simple. Angular has a dependency injection system and AMD is has a module loading system.
-Both are quire similar
+Both are quite similar in a big-picture kinda view but the details differ a lot.
+However they are too good not to be used together.
+There has been many efforts to marry these two together but the solutions are either bloated or hard to use.
+
+> Everything should be made as simple as possible but not simpler --Albert Einstein
+
+So with a little convention we can benefit from Angular's dependency injection together with AMD.
+
+The convention is to use the file name as the Angular AMD module names.
+For those of you who don't like this solution, requireJS shims solve the problem.
