@@ -76,13 +76,6 @@ You can see the complete example [here] (http://htmlpreview.github.com/?https://
 
 See the [examples] (https://github.com/hanifbbz/amdular/tree/master/examples) directory for more examples.
 
-##app.js
-
-```javascript
-AMDular.require('app.js', ['my-module.js'], function (app) {
-})
-```
-
 #API
 
 Define your modules like this:
