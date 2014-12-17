@@ -6,25 +6,25 @@ AMDular brings the best part of Angular and RequireJS together.
 
 #Install
 
-````shell
+```shell
 bower install amdular
-````
+```
 
 #Use
 
 Define your modules like this:
 
-````javascript
+```javascript
 ngDefine(moduleName, dependencyArray, function (module) {
     //the module parameter is the result of an angular.module( , []) call
 });
-````
+```
 
 On  your main file (application file) use it like this:
 
-````javascript
+```javascript
 ngDefine(moduleName, dependencyArray, function (module) {
     //the module parameter is the result of an angular.module( , []) call
     //AMDular will automatically bootstrap your project
 });
-````
+```
